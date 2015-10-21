@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/alejorivera/auto_html
+  revision: 8d392eb4a2fc5ab345282f6f7e4b7bb7ae028324
+  specs:
+    auto_html (1.6.4)
+      redcarpet (~> 3.1)
+      rinku (~> 1.7)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -144,8 +152,10 @@ GEM
       thor (>= 0.18.1, < 2.0)
     rake (10.4.2)
     rdoc (4.2.0)
+    redcarpet (3.3.3)
     responders (2.1.0)
       railties (>= 4.2.0, < 5)
+    rinku (1.7.3)
     sass (3.4.12)
     sass-rails (5.0.1)
       railties (>= 4.0.0, < 5.0)
@@ -193,6 +203,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  auto_html!
   aws-sdk (< 2.0)
   bootstrap-sass
   byebug
